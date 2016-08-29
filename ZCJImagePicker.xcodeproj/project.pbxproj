@@ -17,7 +17,6 @@
 		F9ED32AC1D7179B200C5F5C4 /* PPoverTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9ED32A21D7179B100C5F5C4 /* PPoverTableCell.swift */; };
 		F9ED32AE1D7179B200C5F5C4 /* PreviewAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9ED32A51D7179B100C5F5C4 /* PreviewAnimator.swift */; };
 		F9ED32AF1D7179B200C5F5C4 /* PreviewCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9ED32A61D7179B100C5F5C4 /* PreviewCollectionCell.swift */; };
-		F9EF3CD21D731A3400A3D08B /* SelectedPhotoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9EF3CD11D731A3400A3D08B /* SelectedPhotoModel.swift */; };
 		F9F5058F1D72B6F500E4F214 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9F5058E1D72B6F500E4F214 /* RootViewController.swift */; };
 		F9F505911D72D15200E4F214 /* SelectedPhotoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9F505901D72D15200E4F214 /* SelectedPhotoCell.swift */; };
 /* End PBXBuildFile section */
@@ -35,7 +34,6 @@
 		F9ED32A21D7179B100C5F5C4 /* PPoverTableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PPoverTableCell.swift; sourceTree = "<group>"; };
 		F9ED32A51D7179B100C5F5C4 /* PreviewAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PreviewAnimator.swift; sourceTree = "<group>"; };
 		F9ED32A61D7179B100C5F5C4 /* PreviewCollectionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PreviewCollectionCell.swift; sourceTree = "<group>"; };
-		F9EF3CD11D731A3400A3D08B /* SelectedPhotoModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectedPhotoModel.swift; sourceTree = "<group>"; };
 		F9F5058E1D72B6F500E4F214 /* RootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
 		F9F505901D72D15200E4F214 /* SelectedPhotoCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectedPhotoCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -74,7 +72,6 @@
 				F9ED328A1D71795100C5F5C4 /* AppDelegate.swift */,
 				F9F5058E1D72B6F500E4F214 /* RootViewController.swift */,
 				F9F505901D72D15200E4F214 /* SelectedPhotoCell.swift */,
-				F9EF3CD11D731A3400A3D08B /* SelectedPhotoModel.swift */,
 				F9ED32911D71795100C5F5C4 /* Assets.xcassets */,
 				F9ED32961D71795100C5F5C4 /* Info.plist */,
 			);
@@ -185,7 +182,6 @@
 				F9F5058F1D72B6F500E4F214 /* RootViewController.swift in Sources */,
 				F9ED328B1D71795100C5F5C4 /* AppDelegate.swift in Sources */,
 				F9ED32AF1D7179B200C5F5C4 /* PreviewCollectionCell.swift in Sources */,
-				F9EF3CD21D731A3400A3D08B /* SelectedPhotoModel.swift in Sources */,
 				F9ED32AA1D7179B200C5F5C4 /* PhotoViewController.swift in Sources */,
 				F9ED32AC1D7179B200C5F5C4 /* PPoverTableCell.swift in Sources */,
 				F9F505911D72D15200E4F214 /* SelectedPhotoCell.swift in Sources */,
