@@ -14,15 +14,10 @@ class PreviewCollectionCell: UICollectionViewCell, UIScrollViewDelegate {
         didSet{
             //重置scrollView和imageView
             resetView()
-            //fullResolutionImage().takeUnretainedValue()
-            let image = UIImage(CGImage: assentModel!.alsseet!.defaultRepresentation().fullScreenImage().takeUnretainedValue())
-            imageView.image = image
             let screenWidth = UIScreen.mainScreen().bounds.width
             let screenHeight = UIScreen.mainScreen().bounds.height
-            //图片宽高比
-            let scale = image.size.height/image.size.width
-            //利用宽高比计算图片的高度
-            let imageHeight = scale * screenWidth
+            imageView.image = UIImage(CGImage: assentModel!.alsseet!.defaultRepresentation().fullScreenImage().takeUnretainedValue()).imageWithScale(screenWidth)
+            let imageHeight = imageView.image!.size.height
             //设置图片的frame
             self.imageView.frame = CGRect(origin: CGPointZero, size: CGSize(width: screenWidth, height: imageHeight))
             //判断当前是长图还是短图
@@ -36,6 +31,7 @@ class PreviewCollectionCell: UICollectionViewCell, UIScrollViewDelegate {
                 self.scrollView.contentSize = CGSize(width: screenWidth, height: imageHeight)
             }
             checkButton.selected = assentModel!.isChecked
+
         }
     }
     var index: Int = -1

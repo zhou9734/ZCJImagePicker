@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F993F48C1D76A7C40006B5CA /* UIImage+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F993F48B1D76A7C40006B5CA /* UIImage+Extension.swift */; };
 		F9ECFB431D73C6A400CE8201 /* PreviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9ECFB421D73C6A400CE8201 /* PreviewViewController.swift */; };
 		F9ED328B1D71795100C5F5C4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9ED328A1D71795100C5F5C4 /* AppDelegate.swift */; };
 		F9ED32921D71795100C5F5C4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F9ED32911D71795100C5F5C4 /* Assets.xcassets */; };
@@ -22,6 +23,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F993F48B1D76A7C40006B5CA /* UIImage+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Extension.swift"; sourceTree = "<group>"; };
 		F9ECFB421D73C6A400CE8201 /* PreviewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PreviewViewController.swift; sourceTree = "<group>"; };
 		F9ED32871D71795100C5F5C4 /* ZCJImagePicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZCJImagePicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9ED328A1D71795100C5F5C4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -105,6 +107,7 @@
 				F9ECFB421D73C6A400CE8201 /* PreviewViewController.swift */,
 				F9ED32A61D7179B100C5F5C4 /* PreviewCollectionCell.swift */,
 				F9ED32A51D7179B100C5F5C4 /* PreviewAnimator.swift */,
+				F993F48B1D76A7C40006B5CA /* UIImage+Extension.swift */,
 			);
 			path = Preview;
 			sourceTree = "<group>";
@@ -182,6 +185,7 @@
 				F9F5058F1D72B6F500E4F214 /* RootViewController.swift in Sources */,
 				F9ED328B1D71795100C5F5C4 /* AppDelegate.swift in Sources */,
 				F9ED32AF1D7179B200C5F5C4 /* PreviewCollectionCell.swift in Sources */,
+				F993F48C1D76A7C40006B5CA /* UIImage+Extension.swift in Sources */,
 				F9ED32AA1D7179B200C5F5C4 /* PhotoViewController.swift in Sources */,
 				F9ED32AC1D7179B200C5F5C4 /* PPoverTableCell.swift in Sources */,
 				F9F505911D72D15200E4F214 /* SelectedPhotoCell.swift in Sources */,
